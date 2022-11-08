@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: black;
+}
+main{
+    padding: 58px 85px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+    height: 1458px;
+    background-size: cover;
+    background-image: url("../img/Background.png");
+}
+header{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline;
+}
+input[type="text"] {
+    text-align: center;
+    outline: none;
+    border: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+::placeholder {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #ffffff;
+}
+.mobilemenu{
+    padding: 9px;
+    flex-direction: column;
+    display: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    border: 1px solid white;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffff;
+}
+.link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.link:hover{
+    color: chocolate;
+}
+.icon{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    display: inline-flex;
+    margin-top: 170px;
+}
+.foll{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 22px;
+    text-decoration: none;
+}
+.foll:hover{
+    color: chocolate;
+}
+.alldiscover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+    flex-grow: 1;
+}
+.discover{
+    display: flex;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orange{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFC178;
+    position: relative;
+    right: 245px;
+}
+.orange::before{
+    content:'';
+    border: 2px solid #FFC178;
+    display: inline-flex;
+    position: relative;
+    top: -5px;
+    right: 32px;
+    width: 72px;
+}
+.zagolovok{
+    font-size: 96px;
+    font-weight: 700;
+    color: #ffff;
+}
