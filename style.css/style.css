@@ -124,7 +124,7 @@ p{
     color: #ffff;
     margin-bottom: 126px;
 }
-.scrol{
+.scroli{
     font-size: 18px;
     font-weight: 600;
     color: #ffff;
@@ -149,6 +149,9 @@ p{
 }
 .mount{
     width: 43%;
+}
+.mo{
+    width: 100%;
 }
 .mounttext{
     display: flex;
@@ -276,6 +279,9 @@ p{
 }
 .culphoto{
     width: 43%;
+}
+.clphoto{
+    width: 100%;
 }
 .indocul{
     font-size: 18px;
@@ -496,4 +502,230 @@ input[type="email"] {
     text-align: center;
     color: #FFff;
     opacity: 0.5;
+  }
+  @media (min-width: 831px) and (max-width: 1200px) {
+    .orange{
+        right: 152px;
+    }
+    .verhtext{
+        margin-bottom: 6px;
+        line-height: 0px;
+    }
+    .sertext{
+        margin-bottom: 10px;
+        line-height: 67px;
+    }
+    .mtext{
+        line-height: 25px;
+    }
+    .indocul{
+        line-height: 1px;
+    }
+    .our{
+        line-height: 68px;
+        margin-top: 5px;
+        margin-bottom: 18px;
+    }
+    .intext{
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    .let{
+        width: 32.4%;
+    }
+  }
+  @media (max-width: 830px){
+    main{
+        padding: 22px 20px 0;
+    }
+    .orange{
+        right: 70px;
+    }
+    .alldiscover{
+        width: 96%;
+        margin-top: 100px;
+    }
+    .let{
+        width: 43.4%;
+    }
+    .tern{
+        margin-left: 0px;
+    }
+    .privacy{
+        margin-left: 30px;
+    }
+    .fb{
+        margin-right: 30px;
+    }
+    .twit{
+        margin-right: 30px;
+    }
+    .insta{
+        margin-right: 0;
+    }
+    .verhtext{
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 0;
+    }
+    .sertext{
+        font-size: 49px;
+        margin-bottom: 7px;
+        line-height: 57px;
+    }
+    .mtext{
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+    .scrol{
+        margin-bottom: 450px;
+    }
+    .indocul{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .our{
+        font-size: 40px;
+        line-height: 42px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+    .intext{
+        line-height: 24px;
+    }
+  }
+  @media (max-width: 430px){
+    main{
+        padding: 10px 10px 0;
+    }
+    .menu{
+        display: none;
+    }
+    .mobilemenu{
+        display: flex;
+        flex-direction: column;
+    }
+    .alldiscover{
+        width: 94%;
+        margin-top: 125px;
+    }
+    .discover{
+        margin-left: 20px;
+    }
+    .orange{
+        right: 15px;
+        text-align: end;
+        font-weight: 600;
+    }
+    .zagolovok{
+        font-size: 66px;
+        font-weight: 500;
+    }
+    .scrol{
+        margin-right: 70px;
+    }
+    .mountians{
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .mount{
+        width: 95%;
+    }
+    .mounttext{
+        width: 95%;
+        margin-top: 40px;
+    }
+    .bromo{
+        padding-top: 225px;
+    }
+    .brverf{
+        color: chocolate;
+        margin-top: 25px;
+    }
+    .brverf::after{
+        border: 2px solid chocolate;
+    }
+    .brverf::before{
+        border: 2px solid chocolate;
+    }
+    .brsteady{
+        font-size: 60px;
+        line-height: 67px;
+    }
+    .brtext{
+        line-height: 25px;
+    }
+    .indo{
+        flex-direction: column-reverse;
+        margin-top: 150px;
+    }
+    .culture{
+        width: 95%;
+    }
+    .culphoto{
+        width: 95%;
+    }
+    .indocul{
+        margin-top: 40px;
+    }
+    .our{
+        font-size: 45px;
+        margin-top: 10px;
+    }
+    .qwery{
+        margin-top: 180px;
+    }
+    .qw{
+        font-size: 28px;
+    }
+    .re{
+        font-size: 16px;
+        margin-right: 9px;
+    }
+    .get{
+        padding: 11px 17px;
+        font-size: 20px;
+    }
+    input[type="email"]{
+        padding-bottom: 10px;
+        margin-left: 20px;
+    }
+    .btn_letgo{
+        padding: 12px 20px;
+    }
+    .let{
+        width: 95%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .lets{
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .serv{
+        font-size: 17px;
+    }
+    .links{
+        font-size: 16px;
+    }
+    .right{
+        margin-top: 35px;
+    }
+    .terns{
+        margin-top: 100px;
+    }
+    .privacy{
+        margin-left: 10px;
+    }
+    .fb{
+        margin-right: 10px;
+    }
+    .twit{
+        margin-right: 10px;
+    }
+    .final{
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
   }
