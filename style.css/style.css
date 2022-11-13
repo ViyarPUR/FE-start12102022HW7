@@ -6,7 +6,12 @@
     background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     background-attachment: fixed;
+    /* background-attachment: scroll; не подобаеться*/
+    /* background-attachment: local; також фігня*/
+    /* background-attachment: inherit; туди само*/
+    /* background-attachment: initial; до корабля*/
 }
 .grad{
     background: rgb(0,0,0);
